@@ -6,7 +6,8 @@ const {User} = require('./../../models/user')
 
 const userOneId = new ObjectID()
 const userTwoId = new ObjectID()
-const users = [{
+const users = [
+  {
   _id: userOneId,
   email: "athens@example.com",
   password: "password!",
@@ -16,8 +17,8 @@ const users = [{
   }]
   },
   {_id: userTwoId,
-    email: 'jen@example.com',
-    password: "passwordA"
+  email: 'jen@example.com',
+  password: "passwordA"
   }
 ];
 
